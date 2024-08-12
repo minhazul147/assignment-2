@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.inter-uniquifier {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+
+ 
+
+  /* Common design */
+  
+  .btn-primary{
+    width: 224px;
+    height: 54px;
+    color: #fff;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    cursor: pointer;
+  }
+
+  
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    margin: 30px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;    
+    text-align: left;
+}
+
+
+
+/* nav design start */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 100px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+    color: rgb(230, 83, 60);;
+}
+nav ul{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    border: 5px solid rgba(255, 255, 255, 0.1);
+    border-radius: 45px;
+    padding: 10px;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+   
+}
+.home{
+    padding: 10px;
+    border-radius: 40px;
+    background: rgb(230, 83, 60);
+}
+.shape{
+    font-family: 'Miama', sans-serif;
+}
+
+/* nav design End */
+
+/* Header design Start */
+
+header{
+    height: 686px;
+    background-color: rgba(0, 0, 0, 0.901);
+    
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    
+} 
+.banner{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 0 35px 0 200px;
+}  
+.banner-content{
+    width: 40%;
+}
+.banner-title{
+    
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.download-btn{
+    width: 224px;
+    height: 54px;
+    color: #fff;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    border-radius: 42px;
+    background: rgb(16, 3, 1);
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+.banner-profile-pic{
+    
+    margin: 0 90px 0 0;
+}
+
+.videos-icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 193px;
+    height: 98px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 15px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    margin: 20px 25px 10px auto;
+    position: absolute;
+    left: 82%;
+    top: 20%;
+}
+.card-title{
+    width: 116px;
+    height: 40px;
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin: 0 10px 5px 10px;
+}
+.card-description{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 5px;
+
+}
+.circle{
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(230, 83, 60);
+    height: 40px;
+    width: 80px;
+    border-radius: 50%;
+}
+.video-tutorial{
+    display: flex;
+    left: 57%;
+    top: 65%;
+}
+
+/* Header design End */
+
