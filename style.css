@@ -262,6 +262,36 @@ header{
 
 /* Habit section END */
 
+/* Run Section start */
+
+.run-container{
+    width: 1060px;
+    height: 400px;
+    align-items: center;
+    margin-top: 170px;
+    margin-left: 235px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(34, 34, 34);
+}
+.run-items{
+    width: 485px;
+    margin-left: 40px;
+    padding: 40px;
+}
+.run-title{
+    font-size: 58px;
+    font-weight: 800;
+    
+}
+.run-img{
+    width: 450px;
+    height: 100%;
+}
+
+
+/* Run Section ENd */
+
 /* Main section END */
 
 
@@ -318,7 +348,7 @@ header{
 
     /* habit start here */
 
-    
+
 
     /* habit End here */
 }
