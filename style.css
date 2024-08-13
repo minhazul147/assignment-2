@@ -292,6 +292,74 @@ header{
 
 /* Run Section ENd */
 
+/* Caculator section Start */
+
+.Calculator{
+    margin-left: 400px;
+    margin-top: 50px;
+    width: 650px;
+
+}
+.Calculator-container{
+    height: 480px;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-around;
+}
+
+table{
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 5px 15px;
+}
+.bmi-title{
+    margin-top: 40px;
+}
+.bmi-table{
+    margin-top: 40px;
+    width: 300px;
+    height: 210px;
+}
+.th-title{
+    color: rgb(255, 255, 255);
+    font-family: "Inter";
+}
+.form-items{
+    margin-top: 40px;
+    width: 577px;
+    height: 386px;
+}
+form{    
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+input{
+    width: 280px;
+    height: 48px;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+}
+select{
+    width: 280px;
+    height: 48px;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+}
+.activity{
+    flex-grow: 1;
+}
+.Calculator-btn{
+    margin-top: 20px;
+}
+
+/* Caculator section END */
+
 /* Main section END */
 
 
@@ -351,6 +419,38 @@ header{
 
 
     /* habit End here */
+
+    /* Caculator section start */
+
+    .Calculator{
+        margin: auto;
+    }
+    .Calculator-container{
+        height: 1080px;
+        flex-direction: column;
+
+        
+    }
+    .table{
+        margin-left: 50px;
+        margin-bottom: 375px;
+    }
+    .form-items{
+        
+        margin-bottom: 800px;
+        width: 400px;
+        height: 386px;
+        margin-left: 50px;
+        
+    }
+    input{
+        width: 190px;
+    }
+    select{
+        width: 190px;
+    }
+
+    /* Caculator section End */
 }
 
 /* Responsive END */
