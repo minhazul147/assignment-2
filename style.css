@@ -398,6 +398,33 @@ select{
 
 /* Our Team Section END */
 
+/* Visit room section Start */
+
+.our-room{
+    width: 670px;
+    text-align: center;
+    align-items: center;
+    margin: 20px auto 0 auto;
+    
+}
+.room-container{
+    width: 480px;
+    margin-left: 175px;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 20px;
+}
+.trainer{
+    position: relative;
+}
+.room-img{
+    width: 400px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+/* Visit room section End */
+
 /* Main section END */
 
 /* Footer start here */
@@ -637,6 +664,28 @@ footer{
     }
 
     /* Trainer section end */
+
+    /* Visit training room Start */
+
+    .our-room{
+        width: 99%;
+        margin-top: 130px;
+        margin-left: 45px;
+    }
+    .room-container{
+        width: 99%;
+        margin: 0;
+        margin-left: 45px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .room-img{
+        width: 99%;
+        height: 100%;
+        border-radius: 20px;
+        
+    }
+
+    /* Visit training room End */
 
     /* Footer start */
    footer{
