@@ -87,16 +87,7 @@ nav li a{
     font-size: 20px;
    
 }
-.open-menu{
-    position: absolute;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    font-size: 1.5rem;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-    display: none;
-}
+
 .home{
     padding: 10px;
     border-radius: 40px;
@@ -190,6 +181,10 @@ header{
     margin: 5px;
 
 }
+.header-btn{
+    display: flex;
+    row-gap: 20px;
+}
 .circle{
     text-align: center;
     justify-content: center;
@@ -238,7 +233,7 @@ header{
 }
 .img-style{
     width: 100%;
-    /* height: 300px; */
+    
     border-radius: 50%;
 }
 .card-body{
@@ -251,7 +246,7 @@ header{
     font-family: "Inter";
     font-size: 2rem;
     text-align: center;   
-    /* padding: 5px; */
+    
 }
 
 .card-desc{
@@ -408,14 +403,14 @@ select{
 /* Footer start here */
 
 footer{
-    background-color: rgba(255, 255, 255, 0.1);
+    height: 100%;
+    background-color: rgb(34, 34, 34);
 }
 
 .footer-container{
    
     display: flex;
-    justify-content: space-around;
-    /* background-color: rgba(255, 255, 255, 0.1); */
+    justify-content: space-around; 
     margin-top: 40px;
 }
 .fitness{
@@ -428,7 +423,8 @@ footer{
     margin-top: 46px;
 }
 .copy-right{
-    text-align: center;
+       text-align: center;
+    
 }
 
 /* Footer ENd here */
@@ -438,23 +434,56 @@ footer{
 /* Responsive start */
 
 @media screen and (max-width: 576px) {
+
     header{
         margin-left: 30px;
     }
     ul > li {
         display: none;
     }
-    /* #nav-icon{
-        display: block;
-        margin-right: 10px;
-    } */
-    .nav-section{
-        
+    
+     nav {
+        width: 446px;
         justify-content: space-around;
-        
+        margin: 20px 30px 20px 0;
+       
+     }
+    .nav-section{      
+        justify-content: space-around;     
     }
-    .nav-title{
-        margin-left: 0px;
+    .nav-title{     
+        margin-left: 5px;
+    }
+    .toggle{
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+        background-color: black;
+    
+    }
+    .common{
+        position: absolute;
+        height: 2px;
+        width: 20px;
+        background-color: #fff;
+        border-radius: 50px;
+        transition: 0.3s ease;
+    }
+    .top-line{
+        bottom: 100%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .middle-line{
+        bottom: 80%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .bottom-line{
+        bottom: 55%;
+        left: 50%;
+        transform: translate(-50%,-50%);
     }
     .banner{
 
@@ -476,34 +505,98 @@ footer{
     .download-btn{
         width: 169px;
     }
-    .card{
+    .box{
         left: 44%;
-        top: 47%;
+        top: 48%;
     }
     .video-tutorial{
         left: 4%;
         top: 65%;
     }
+ 
 
     /* habit start here */
 
-
+    .habit-container{
+        width: 99%;
+        height: 100%;
+        margin: 450px 0 0 0 ;
+       
+    }
+    .habit-desc{
+        width: 85%;
+        font-size: 20px;
+        text-align: center;
+        
+    }
+    .card-container{
+        width: 100%;
+        height: 1300px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .card{   
+        width: 200px;
+        height: 150px;
+       margin-left: 20px;
+    }
+    .card-items{
+        height: 100px;
+        margin-left: 0px;
+        align-items: center;
+        text-align: center;
+    }
+    .card-body{
+    width: 230px;
+    height: 64px;
+    margin-left: 20px; 
+    }
+    .card-title{
+        text-align: center;
+        margin-left: -59px;
+    }
+    .card-desc{
+        margin: 10px;
+    }
 
     /* habit End here */
+
+    /* Run section */
+
+    .run-container{
+        width: 99%;
+        height: 100%;  
+        margin: auto;
+        margin-top: 140px;
+        margin-left: 40px;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .run-items{
+         margin-left: 15px;
+    }
+    .run-img{
+        width: 95%;
+    }
+    /* Run section */
 
     /* Caculator section start */
 
     .Calculator{
         margin: auto;
+        width: 99%;
+        margin-left: 40px;      
     }
     .Calculator-container{
+        width: 99%;
         height: 1080px;
+        margin-left: 40px;
         flex-direction: column;
 
         
     }
     .table{
-        margin-left: 50px;
+        
         margin-bottom: 375px;
     }
     .form-items{
@@ -511,7 +604,7 @@ footer{
         margin-bottom: 800px;
         width: 400px;
         height: 386px;
-        margin-left: 50px;
+        
         
     }
     input{
@@ -522,6 +615,59 @@ footer{
     }
 
     /* Caculator section End */
+
+    /* Trainer section start */
+
+    .our-team{
+        width: 99%;
+        margin-top: 130px;
+        margin-left: 45px;
+    }
+    .trainer-container{
+        width: 99%;
+        margin: 0;
+        margin-left: 45px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .trainer-img{
+        width: 99%;
+        height: 100%;
+        border-radius: 20px;
+        
+    }
+
+    /* Trainer section end */
+
+    /* Footer start */
+   footer{
+    width: 470px;
+   }
+
+    .footer-container{
+        width: 100%;
+        flex-direction: column;
+       
+    }
+    .fitness{
+        margin-left: 8px;
+    }
+    .fitness-title{
+        margin-left: 30px;
+    }
+    .fitness-decs{
+        margin-left: 30px;
+        margin-top: 10px;
+        width: 300px;
+        font-size: 1rem;
+    }
+    .copy-right{
+        width: 100%;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+    }
+
+    /* Footer end */
 }
 
 /* Responsive END */
