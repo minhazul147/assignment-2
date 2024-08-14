@@ -348,7 +348,7 @@ select{
     background: rgba(255, 255, 255, 0.1);
 }
 .activity{
-    flex-grow: 1;
+    flex-grow: 0.8;
 }
 .Calculator-btn{
     margin-top: 20px;
@@ -507,11 +507,11 @@ footer{
     }
     .box{
         left: 44%;
-        top: 48%;
+        top: 50%;
     }
     .video-tutorial{
         left: 4%;
-        top: 65%;
+        top: 73%;
     }
  
 
@@ -573,7 +573,10 @@ footer{
         align-items: baseline;
     }
     .run-items{
-         margin-left: 15px;
+         margin-left: 5px;
+    }
+    .run-decs{
+        width: 70%;
     }
     .run-img{
         width: 95%;
@@ -585,35 +588,32 @@ footer{
     .Calculator{
         margin: auto;
         width: 99%;
-        margin-left: 40px;      
+        margin-left: 40px;    
     }
     .Calculator-container{
         width: 99%;
-        height: 1080px;
+        height: 900px;
         margin-left: 40px;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
 
         
     }
     .table{
         
-        margin-bottom: 375px;
+       
     }
-    .form-items{
-        
-        margin-bottom: 800px;
+    .form-items{  
         width: 400px;
-        height: 386px;
-        
-        
+        height: 386px;    
     }
     input{
-        width: 190px;
+        width: 170px;
     }
     select{
-        width: 190px;
+        width: 170px;
     }
-
+   
     /* Caculator section End */
 
     /* Trainer section start */
